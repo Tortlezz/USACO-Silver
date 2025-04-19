@@ -3,7 +3,7 @@ import java.io.*;
 
 class Main {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(new File("cownomics.in");
+        Scanner sc = new Scanner(new File("cownomics.in"));
         int perCow = sc.nextInt();
         int alleles = sc.nextInt();
         String[] genome = new String[perCow * 2];
